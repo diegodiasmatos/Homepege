@@ -1,0 +1,44 @@
+footer{
+    background-color: #0E0E0E;
+    width: 100%;
+    height: auto;
+    
+}
+footer section{
+    display: flex;
+    padding: 40px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+}
+.texto-footer p{
+    color: #ACA5A5;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 20px;
+}
+.contato p{
+    color: #ACA5A5;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 20px;
+}
+.linha{
+    width: 2px;
+    height: 238px;
+    background: linear-gradient(#EDE6E6,#2F2A2A,#605C5C);
+    margin: 0 15px;
+    border-radius: 20px;
+}
+
+.icones img{
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+}

@@ -1,0 +1,106 @@
+.academic{
+    background-color: #1A1A1A;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.container-academic{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 50px;
+    margin: 50px;
+    position: relative;
+}
+.card-aca{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+.elementos{
+    display: grid;
+    width: 280px;
+    height: 238px;
+    gap: 36px;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    border-radius: 7px;
+}
+.dev{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #111010;
+    width: 273px;
+    height: auto;
+    border-radius: 7px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+}
+.TextoACADEMICO{
+    font-family: "Fira Sans", sans-serif;
+    font-size: 26px;
+    color: #ACA5A5;
+    font-weight: 300;
+    padding-left: 20px;
+    line-height: 35px;
+}
+.TextoACADEMICO span{
+    font-weight: 500;
+    color: white;
+}
+
+.iconimg{
+    position: relative;
+    top: -101px;
+}
+.dev  p{
+    display: flex;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: bold;
+font-size: 20px;
+text-align: left;
+}
+.titulodev{
+    color: #717171;
+    margin-left: 20px ;
+}
+.tipo-text{
+    margin: 30px;
+
+}
+@media screen and (max-width:824px) {
+    .Icon{
+        display: none;
+    }
+    .elementos{
+        display: grid;
+        width: 270px;
+        height: auto;
+        gap: 30px;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+        border-radius: 7px;
+        justify-content: center;
+    
+    }
+    
+}
