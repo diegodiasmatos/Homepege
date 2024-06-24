@@ -15,8 +15,6 @@ export default function Footer() {
                    
                 </div>
                 <div className="contato">
-                    <p>Diegoevelyndiasoliveira@gmail.com</p>
-                    <p> +55 44 9907-9784</p>
                     <figure className="icones"> 
                        <a href="https://w.app/TP3I1C" target="_blank" > <img src={whatsap} alt="icoin whatsap"/></a> 
                         <a href="https://www.linkedin.com/in/diego-dias-matos-1a105a252/" target="_blank"><img src={linkdin} alt="icoin link"/></a>

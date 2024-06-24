@@ -21,7 +21,7 @@ export default function Experiencia() {
                         <p>O projeto da  Sorveteria e umas das minhas melhores experiências que já estive participando, focado totalmente no front-end.</p>
                     </div>              
                 <div className="card-2" >
-                        <h2>Estagio</h2>
+                        <h2><a className=" efeito" href="https://gellateriia.netlify.app/" target="_blank" > <p className="mobile">ver projeto</p><span></span></a> </h2>
                      <div className="card-info">
                         <p className="usado">Html</p>
                         <p className="usado">css</p>
@@ -40,7 +40,7 @@ export default function Experiencia() {
                         <p>O projeto barber shop focado em uma barbearia feita totalmente em React, podendo alterar o tema das cores.</p>
                     </div>              
                 <div className="card-2">
-                    <h2>Estagio</h2>
+                    <h2><a  className='efeito ' href="https://baabearia.netlify.app/" target="_blank"><p className="mobile">ver projeto</p><span></span></a></h2>
                     <div className="card-info">
                         <p className="usado">Html</p>
                         <p className="usado">css</p>

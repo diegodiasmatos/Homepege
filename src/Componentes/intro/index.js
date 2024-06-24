@@ -6,6 +6,7 @@ import loc from "../../Assets/icon svg localizaçao.svg";
 import "./css.css";
 
 export default function Intro() {
+   
     return(
         <section className="Intro">
             <section className="imagem">

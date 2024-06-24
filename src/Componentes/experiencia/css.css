@@ -62,7 +62,7 @@ padding: 10px 20px;
 }
 .card-info .usado{
     height: auto;
-    width: 75px;
+    width: 90px;
     font-size: 16px;
     font-family: "Fira Sans", sans-serif;
     font-weight: 500;
@@ -81,10 +81,90 @@ padding: 10px 20px;
     font-family: "Fira Sans", sans-serif;
     font-weight: 500;
 }
+.projet{
+    text-decoration: none;
+    color: #1A1A1A;
+}
+.projet:hover{
+    color: #0c180d;
+}
+
+.efeito{
+    text-decoration: none;
+    
+}
+.efeito span{
+    position: relative;
+}
+.efeito span::before{
+    content: "";
+    color: #1A1A1A;
+    animation: palavras 20s infinite;
+}
+.efeito span::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    border-left: 2px solid #0c180d;
+    right: -10px;
+    opacity: 1;
+    animation: curso .8s infinite, digitar 20s steps(115) infinite ;
+    width: calc(100% + 18px);
+    background-color: #CCCCCC;
+}
+@keyframes digitar {
+    10%, 15%, 30%, 35%, 50%, 55%, 70%, 90%, 95%{
+        width: 0;
+    }
+    5%, 20%, 25% , 40%, 45%, 60%, 65%, 80%, 85%{
+        width: calc(100% + 18px);
+
+    }
+    
+}
+@keyframes palavras {
+    0%,40%{
+        content: "Ja viu os projeto?";
+    }
+    41%,80%{
+        content: "hum Parece que não ⑆";
+    }
+    81%,100%{
+        content: "veja agora mesmo.";
+    }
+    
+}
+@keyframes curso {
+    0%{
+        border-left: 2px solid #CCCCCC;
+    }
+    
+}
+.efeito p{
+    display: none;
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
 @media screen and (max-width: 824px) {
 
     .EXP-BANER-TAMANHO{
         display: none;
     }
+    .efeito{
+        animation: none;
+    }
+    .efeito span::before{
+        animation: none;
+    }
+    .efeito span::after{
+        animation: none;
+    }
+    .efeito p{
+       display: block;
+        text-decoration: none;
+        color: #1A1A1A;
+    }
+    
     
 }
