@@ -36,7 +36,7 @@ h3{
     color: #1A1A1A;
 }
 .Cointeiner{
-width: 64vw;
+width: auto;
 height: auto;
 display: flex;
 background-color: #CCCCCC;
