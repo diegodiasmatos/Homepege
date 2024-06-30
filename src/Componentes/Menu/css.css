@@ -20,6 +20,7 @@
     display: flex;
     flex-direction: row;
 }
+
 .Header a{
     padding: 0 20px;
     font-family: "Fira Sans", sans-serif;
@@ -49,7 +50,13 @@
 nav{
     width: 530px;
 }
-@media screen and (max-width:824px) {
+@media screen and (max-width:540px) {
+    nav{
+        width: auto;
+    }
+    
+}
+@media screen and (max-width:830px) {
     .Header{
         display: flex;
     flex-direction: column;
@@ -59,5 +66,14 @@ nav{
     align-items: center;
     padding: 0 20px;
     }
+    .Header nav ul{
+        list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+    } 
     
 }

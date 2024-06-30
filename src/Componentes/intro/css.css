@@ -11,6 +11,12 @@
 .imagem{
     padding-right:51.7px ;
 }
+@media screen and (max-width:800px) {
+    .imagem{
+        padding-right: 0;
+    }
+    
+}
 .texto-info{
     width: 447px;
     height: 351px;
