@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Homepege/static/css/main.c5bb1499.css",
-    "main.js": "/Homepege/static/js/main.00838321.js",
+    "main.css": "/Homepege/static/css/main.9e8739d2.css",
+    "main.js": "/Homepege/static/js/main.8989fcd9.js",
     "static/js/453.ed3810f9.chunk.js": "/Homepege/static/js/453.ed3810f9.chunk.js",
     "static/media/Lobo.png": "/Homepege/static/media/Lobo.c6e3a272baccf240bd8e.png",
     "static/media/whatsapp.png": "/Homepege/static/media/whatsapp.5fc400c4b153fc178ad7.png",
@@ -13,12 +13,12 @@
     "index.html": "/Homepege/index.html",
     "static/media/deco-1.svg": "/Homepege/static/media/deco-1.e1fd85737f56652deb6794cce5cb121c.svg",
     "static/media/deco.svg": "/Homepege/static/media/deco.e36c43137b997b21e267bf134ed6564e.svg",
-    "main.c5bb1499.css.map": "/Homepege/static/css/main.c5bb1499.css.map",
-    "main.00838321.js.map": "/Homepege/static/js/main.00838321.js.map",
+    "main.9e8739d2.css.map": "/Homepege/static/css/main.9e8739d2.css.map",
+    "main.8989fcd9.js.map": "/Homepege/static/js/main.8989fcd9.js.map",
     "453.ed3810f9.chunk.js.map": "/Homepege/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5bb1499.css",
-    "static/js/main.00838321.js"
+    "static/css/main.9e8739d2.css",
+    "static/js/main.8989fcd9.js"
   ]
 }
